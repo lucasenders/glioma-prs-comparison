@@ -1,0 +1,32 @@
+# Individual-level data: never committed
+AGOG/
+*.bed
+*.bim
+*.fam
+*.rds
+*.bk
+*.raw
+*.profile
+
+# The external pipeline and reference data (see README)
+nextflow_pipeline_prs/
+pipeline/data/snpinfo_mult_1kg_hm3
+
+# Everything the pipeline writes
+pipeline/out/
+pipeline/paper_results/
+pipeline/summary/out/
+baseline/results/
+palindromic_check/palin_*
+paper/figures/*.png
+paper/figures/*.svg
+paper/figures/*_values.tsv
+paper/tables/appendix_*.txt
+*.log
+*.csv
+!pipeline/data/alpen_50_known_variants.csv
+
+# Python and system clutter
+__pycache__/
+*.pyc
+.DS_Store

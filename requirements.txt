@@ -1,0 +1,15 @@
+# Python packages, at the versions the analysis ran with on M3 (Python 3.11.7, module anaconda/2024.02-1)
+numpy==1.26.4
+scipy==1.11.4
+pandas==2.1.4
+scikit-learn==1.2.2
+xgboost==3.2.0
+torch==2.14.0
+joblib
+tabulate
+
+# Figures (drawn with Python 3.13.9)
+matplotlib==3.10.0
+
+# PRS-CS, run from its own folder (see README)
+h5py
